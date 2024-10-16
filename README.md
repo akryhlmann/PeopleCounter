@@ -1,6 +1,4 @@
 
-![Banner](doc/images/hailo_rpi_examples_banner.png)
-
 # Hailo Raspberry Pi 5 Examples
 
 Welcome to the Hailo Raspberry Pi 5 Examples repository. This project showcases various examples demonstrating the capabilities of the Hailo AI processor on a Raspberry Pi 5. These examples will help you get started with AI on embedded devices.
