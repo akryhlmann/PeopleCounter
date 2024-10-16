@@ -4,6 +4,11 @@
 Welcome to the Hailo Raspberry Pi 5 Examples repository. This project showcases various examples demonstrating the capabilities of the Hailo AI processor on a Raspberry Pi 5. These examples will help you get started with AI on embedded devices.
 Visit the [Hailo Official Website](https://hailo.ai/) and [Hailo Community Forum](https://community.hailo.ai/) for more information.
 
+# Booth visitor counter
+[Youtube](https://www.youtube.com/watch?v=HcyoqrIGMl4&ab_channel=CytronTechnologies)
+[Tutorial](https://my.cytron.io/tutorial/raspberry-pi-ai-kit-booth-visitor-counter)
+
+
 ## Table of Contents
 
 - [Hailo Raspberry Pi 5 Examples](#hailo-raspberry-pi-5-examples)
