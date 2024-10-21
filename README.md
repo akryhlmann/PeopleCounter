@@ -1,3 +1,18 @@
+# Raspberry pi Cam
+
+## Supervision
+
+Connect Supervision to dections from camera:
+
+  detections = sv.Detections(
+      xyxy=boxes,
+      confidence=confidence,
+      class_id=class_id,
+      tracker_id=tracker_id)
+
+
+
+
 
 # Hailo Raspberry Pi 5 Examples
 
