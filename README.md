@@ -1,4 +1,29 @@
-# Raspberry pi Cam
+# Raspberry pi AI camera
+## Prerequisites
+These instructions assume you are using the AI Camera attached to either a Raspberry Pi 4 Model B or Raspberry Pi 5 board. With minor changes, you can follow these instructions on other Raspberry Pi models with a camera connector, including the Raspberry Pi Zero 2 W and Raspberry Pi 3 Model B+.
+
+First, ensure that your Raspberry Pi runs the latest software. Run the following command to update:
+```
+sudo apt update && sudo apt full-upgrade
+```
+## Install the IMX500 firmware
+The AI camera must download runtime firmware onto the IMX500 sensor during startup. To install these firmware files onto your Raspberry Pi, run the following command:
+
+```
+sudo apt install imx500-all
+```
+
+This command:
+
+installs the /lib/firmware/imx500_loader.fpk and /lib/firmware/imx500_firmware.fpk firmware files required to operate the IMX500 sensor
+
+places a number of neural network model firmware files in /usr/share/imx500-models/
+
+installs the IMX500 post-processing software stages in rpicam-apps
+
+installs the Sony network model packaging tools
+
+-----------------------------------
 
 ## Supervision
 
@@ -16,7 +41,7 @@ Connect Supervision to dections from camera:
 Create virtual environment using venv
 
 ```
-Python3 -m venv env
+Python3 -m --system-site-packages venv env
 ```
 
 Activate virtual environment
