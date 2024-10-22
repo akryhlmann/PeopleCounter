@@ -1,10 +1,52 @@
+# Raspberry pi Cam
 
-![Banner](doc/images/hailo_rpi_examples_banner.png)
+## Supervision
+
+Connect Supervision to dections from camera:
+
+  detections = sv.Detections(
+      xyxy=boxes,
+      confidence=confidence,
+      class_id=class_id,
+      tracker_id=tracker_id)
+
+
+
+## Python Virtual Environment
+Create virtual environment using venv
+
+```
+Python3 -m venv env
+```
+
+Activate virtual environment
+```
+source env/bin/activate
+```
+
+Store installed packages to file
+```
+pip freeze > requirements.txt
+```
+
+Install on new using requirements.txt
+
+Activate virtual environment
+```
+pip install -r requirements.txt
+```
+
+
 
 # Hailo Raspberry Pi 5 Examples
 
 Welcome to the Hailo Raspberry Pi 5 Examples repository. This project showcases various examples demonstrating the capabilities of the Hailo AI processor on a Raspberry Pi 5. These examples will help you get started with AI on embedded devices.
 Visit the [Hailo Official Website](https://hailo.ai/) and [Hailo Community Forum](https://community.hailo.ai/) for more information.
+
+# Booth visitor counter
+[Youtube](https://www.youtube.com/watch?v=HcyoqrIGMl4&ab_channel=CytronTechnologies)
+[Tutorial](https://my.cytron.io/tutorial/raspberry-pi-ai-kit-booth-visitor-counter)
+
 
 ## Table of Contents
 
