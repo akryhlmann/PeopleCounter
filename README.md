@@ -12,6 +12,30 @@ Connect Supervision to dections from camera:
 
 
 
+## Python Virtual Environment
+Create virtual environment using venv
+
+```
+Python3 -m venv env
+```
+
+Activate virtual environment
+```
+source env/bin/activate
+```
+
+Store installed packages to file
+```
+pip freeze > requirements.txt
+```
+
+Install on new using requirements.txt
+
+Activate virtual environment
+```
+pip install -r requirements.txt
+```
+
 
 
 # Hailo Raspberry Pi 5 Examples
